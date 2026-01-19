@@ -88,3 +88,31 @@ secrets.json
 credentials.json
 .env.local
 .env.*.local
+
+# ----- Model Outputs -----
+models/
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
+# ----- HuggingFace Cache -----
+.cache/
+huggingface/
+
+# ----- Colab/Jupyter temp -----
+sample_data/
+*.ipynb_checkpoints/
+
+# ----- Training Outputs -----
+outputs/
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# ----- Pasta de Entrada temp files -----
+Pasta de Entrada/Anlisar/*.parquet
